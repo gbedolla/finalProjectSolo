@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="tests"
+    errors="1" failures="0" hostname="" id="" package="tests" skipped="0"
+    tests="1" time="0.01700" timestamp="Fri, 10 Aug 2018 15:38:53 GMT">
+  
+    <testcase name="Name Change" classname="tests" time="0.01700" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Tests / Name Change]:
+
+  Error: testemployee1 was not found in &#34;pageObjects&#34;. Available elements: employeeManagerTitle,noEmployee,employee1,employee2,employee3,employee4,employee5,employee6,employee7,employee8,employee9,employee10,testEmployee1,emlpoyeeTitle,employeeID,nameInput,phoneNumberInput,titleInput,saveButton,cancelButton,errorCard
+    at getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
+    at Object.element (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
+    at Object.Name Change (/Users/gabrielbedolla/Desktop/Dev-Mtn/finalSoloProject/tests/tests.js:17:21)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
